@@ -1,42 +1,77 @@
-# Crisis-Threat-Level
+README.md
+
+# 🛡️ Crisis Threat Level Framework
 A dynamic, Excel-based system designed to help crisis teams gauge the severity of a potential or ongoing issue in real time. This framework combines multiple metrics — virality, conversation volume, and sentiment — into a single, actionable threat level that supports timely decision-making and client reporting.
 
-📌 Problem Statement
-In crisis monitoring, teams often rely on separate metrics such as engagement or mentions. While useful, these alone do not provide a clear, unified view of how severe a threat truly is — or what next steps to recommend to clients.
+## 📌 Problem Statement
 
-Key challenges addressed:
-✅ No concise, standard metric to justify threat severity and recommend actions.
-✅ Crises are time-sensitive and can escalate rapidly (e.g., viral content with 30M+ views).
-✅ Need for a breakdown that clearly shows why a situation is critical and how it should be monitored or escalated.
+Crisis monitoring teams often rely on separate metrics such as engagements and mentions. While informative, these isolated figures do not offer a unified, time-sensitive view of how severe a threat truly is — nor what action should be taken.
 
-👤 Role & Contribution
-Designed and developed a metric system that:
-1. Defines a crisis as any situation that generates or risks generating negative chatter or publicity about a brand online.
-2. Integrates key indicators:
-	- Virality: Engagement levels on social platforms.
-	- Conversation Volume: Mentions and posts.
-	- Sentiment: Net sentiment score (balance of positive, neutral, and negative mentions).
-3. Created working prototypes of the metric in Excel.
-4. Experimented with different statistical approaches (e.g., median, mean) to test reliability.
-5. Built a scalable Excel template that can be updated in real time as new data comes in.
+This framework addresses:
+- ❗ Lack of a concise, standardized threat severity metric
+- ⏱️ Need for time-sensitive tracking (especially as engagements can spike rapidly, e.g., 30M+ views)
+- 📊 Desire for a transparent and justifiable breakdown that supports escalation decisions
 
-⚙️ How It Works
-This framework uses fictional data to demonstrate how a real crisis might be scored and tracked.
-- Input daily or hourly data for engagement, mentions, and sentiment.
-- The tool automatically calculates a weighted threat level.
-- Includes breakdowns and thresholds to guide decision-making (e.g., when to escalate to clients).
+---
+
+## 👤 Role & Contribution
+
+As the lead analyst and framework developer, I:
+
+- 🔧 Developed a threat metric to monitor crises in real time
+- 📈 Defined a *crisis* as any issue generating (or potentially generating) negative brand-related chatter online
+- 🧮 Incorporated core indicators:
+  - **Virality** (Engagements)
+  - **Conversation Volume** (Mentions)
+  - **Sentiment** (Net sentiment score from positive, neutral, and negative posts)
+- 🧪 Prototyped and tested different scoring models (mean, median, weighted approaches)
+- 📊 Designed an Excel-based dashboard for real-time data entry and automated threat scoring
+
+---
+
+## ⚙️ How It Works
+
+This framework enables crisis teams to:
+
+1. Input daily or hourly social data (manually or via internal tools)
+2. Automatically calculate a composite threat level score
+3. View visual breakdowns that guide client response recommendations
+
+> 🔍 The repository includes **fictional data** to illustrate how the metric works in practice.
+
+---
+
+## 📂 Repository Contents
+
+| File/Folder | Description |
+|-------------|-------------|
+| `Threat-Level-Template.xlsx` | Excel file with working threat level system, dummy data, and formulas |
+| `Use-Case-Example.md`       | Fictional scenario showing how the framework applies to a simulated crisis |
+| `assets/`                   | Supporting visuals such as framework diagrams and screenshots |
+| `README.md`                 | Project overview |
+
+---
+
+## 📝 Example Use Case
+
+A fictional use case has been included to demonstrate how a typical crisis scenario is assessed using the framework.
+
+📄 [See the example →](./Use-Case-Example.md)
 
 
-🗂️ Files Included
-1. Threat-Level-Template.xlsx — A ready-to-use Excel template with formulas and dummy data for demonstration purposes only.
-2. Use-Case-Example.md — A fictional scenario illustrating how the metric tracks a developing crisis. 
-3. /assets — Diagrams and screenshots showing the framework in action.
 
-🚫 Disclaimer
-This framework is for portfolio demonstration only. All data is fictional and does not reflect any real brands, clients, or incidents. No proprietary or confidential information is included.
+---
+
+## 🚫 Disclaimer
+
+This framework is intended solely for **portfolio and demonstration** purposes.  
+All data and scenarios in this repository are **fictional**. No proprietary, client, or confidential company information is included.
 
 
-💡 Future Improvements
-- Automate updates with real-time data feeds.
-- Build a web-based dashboard version.
-- Add forecasting models for potential crisis escalation.
+---
+
+## 🔮 Future Enhancements
+
+- Real-time integration with social media monitoring tools (via APIs)
+- Web dashboard version for broader accessibility
+- Industry-specific threshold presets for different risk sensitivities
